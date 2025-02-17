@@ -5,8 +5,7 @@ local StarterGui = game:GetService("StarterGui")
 local LocalPlayer = Players.LocalPlayer
 local PlaceId = game.PlaceId
 
--- 🔹 Replace with your script's raw URL
-local ScriptURL = ""
+local ScriptURL = "https://raw.githubusercontent.com/Pharllex/Aspect/refs/heads/main/AspectAntiAfk.lua"
 
 local function Notify(title, text, duration)
     StarterGui:SetCore("SendNotification", {
